@@ -1,4 +1,4 @@
-package Socrative;
+package Socrative.Deneme;
 
 public class E01_Loop {
     public static void main(String[] args) {

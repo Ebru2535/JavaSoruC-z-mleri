@@ -1,4 +1,4 @@
-package Socrative;
+package Socrative.Deneme;
 
 import java.util.ArrayList;
 import java.util.List;
