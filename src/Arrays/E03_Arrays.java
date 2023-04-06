@@ -10,8 +10,6 @@ public class E03_Arrays {
         int[] arr1= {2,5,6,8,1,3,2};
         elemanSayısıyazdır(arr1,3); // 1
 
-
-
     }
     public static void elemanSayısıyazdır(int[]arr,int arananSayi){
 
@@ -22,6 +20,6 @@ public class E03_Arrays {
              }
 
         }
-        System.out.println(sayac);
+           System.out.println(sayac);
     }
 }
