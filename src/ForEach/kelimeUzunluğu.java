@@ -6,25 +6,25 @@ import java.util.List;
 public class kelimeUzunluğu {
     public static void main(String[] args) {
         /*
-        Soru 3- Verilen String bir array’deki her bir elementi kontrol edip,
-              - Kelimenin uzunlugu cift sayi ise ilk yarisini
-              - Kelimenin uzunlugu tek sayi ise ortadaki harf dahil ikinci yarisini
-                 yeni bir listeye ekleyip yazdirin.
-       */
-        String [] array={"ayse", "eda", "veda"};
-        List<String> yeni=new ArrayList<>();
-        for (String each:array) {
-            if (each.length()%2==0){
-                each.substring(0, (array.length/2)+1);
-                yeni.add(each.substring(0, each.length()/2));
+            Soru 3-Verilen String bir array’deki her bir elementi kontrol edip,
+                   - Kelimenin uzunlugu cift sayi ise ilk yarisini
+                   - Kelimenin uzunlugu tek sayi ise ortadaki harf dahil ikinci yarisini yeni bir listeye ekleyip yazdirin.
+         */
 
-            }else {
-                each.substring((array.length/2));
-                yeni.add(each.substring(each.length()/2));
+        String[] arr = {"Istanbul", "Ankara", "Afyon", "Kastamonu", "Samsun", "Manisa"};
+
+        List<String> list = new ArrayList<>();
+
+        for (String each : arr
+        ) {
+            if (each.length() % 2 == 0) {
+                list.add(each.substring(0, each.length() / 2));
+            } else {
+                list.add(each.substring((each.length() / 2)));
             }
+
         }
-        System.out.println(yeni);
-
+        System.out.println(list);
     }
-}
 
+}
