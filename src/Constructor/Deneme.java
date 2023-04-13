@@ -27,6 +27,11 @@ package Constructor;
 
         public static void main(String[] args) {
             Deneme obj1= new Deneme("Esra");
+
+            System.out.println("düzeltme yaptık");
+
         }
+
+
     }
 
