@@ -5,7 +5,9 @@ package Constructor;
     public class Deneme {
         String isim="John Doe";
         int yas=40;
+       public Deneme(String a,int b,int c){
 
+       }
         public Deneme(){
             String isim="Olcay";
             System.out.println("isim :" + isim);
