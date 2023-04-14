@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class PSV1 {
     public static void main(String[] args) {
+        System.out.println("githup çalıştı");
         int [] arr={10,20,30};
         System.out.println(Arrays.toString(arrayeYeniDegerAta(arr))); // [40, 50, 60]
         System.out.println(Arrays.toString(arr));  // [10, 20, 30]   java byPasvalue yu kullanır.
