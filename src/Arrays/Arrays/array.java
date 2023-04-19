@@ -1,4 +1,4 @@
-package Arrays.Arrays3;
+package Arrays.Arrays;
 
 public class array {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package ArrayList;
 
 import java.util.Arrays;
 
-public class ArrayList {
+public class ArrayList<S> {
     public static void main(String[] args) {
         // Soru 1- Verilen bir int array’in tum elemanlarini 2 artirip bize donduren bir method
         //olusturun. Eski array’i yeni haliyle kaydedin.
@@ -22,6 +22,7 @@ public class ArrayList {
 
 
     }
+
 
 
 }
