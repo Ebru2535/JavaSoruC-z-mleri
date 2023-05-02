@@ -14,4 +14,4 @@ public class E02_Interface implements E01_Interface{
     //static keywwoerd ile oluşturulan istsiani methotlara
     // static yolla ulaşılır
 
-    // default ile oluşturaln methoda obje üzerinden ulaşılır
+    // default ile oluşturaln methoda obje üzerinden ulaşılır"
