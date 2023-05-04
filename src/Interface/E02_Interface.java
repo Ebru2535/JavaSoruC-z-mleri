@@ -10,7 +10,7 @@ public class E02_Interface implements E01_Interface{
         E01_Interface.method3();
         E02_Interface obj= new E02_Interface();
         obj.methot2();
-    }
+    } }
     //static keywwoerd ile oluşturulan istsiani methotlara
     // static yolla ulaşılır
 
